@@ -23,7 +23,7 @@ open Bs_ppx_let.Promise
 
 We can then write our programs with `Promise` in monadic style similar to haskell's `do` or scala's `for` syntax sugar.
 
-````
+```
 let promiseProgram =
   let%bind x = Js.Promise.resolve 3 in
   let%map y = Js.Promise.resolve 5 in
