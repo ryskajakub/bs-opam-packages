@@ -1,0 +1,19 @@
+{
+  "name": "ppx_ocaml",
+  "version": "0.1.0",
+  "description": "Ppx from ocaml as node module for usage in Bucklescript",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  }
+}
